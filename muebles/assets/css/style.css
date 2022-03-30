@@ -1,0 +1,22 @@
+.titulo{
+    font-family: 'Playfair', serif;
+}
+
+.titulo span{
+    color: blue;
+}
+
+.imagen-principal{
+    background-image: url(../img/principal.jpg);
+    height: 35rem;
+}
+
+.nav-link{
+    color: black;
+}
+
+.imagen-bg{
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
