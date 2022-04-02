@@ -1,0 +1,59 @@
+body {
+  margin: 0px;
+
+  padding: 0px;
+
+  font-family: "Roboto", sans-serif;
+}
+
+nav {
+  background-color: #28a745;
+  color: aliceblue;
+}
+
+.navbar-brand img {
+  height: 3.3125rem;
+}
+
+.card {
+  width: 20rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  height: 29rem;
+}
+
+#tipo {
+  color: #707070;
+}
+
+#producto {
+  font-size: 1.5rem;
+}
+
+#direccion {
+  color: #707070;
+  font-size: 0.8rem;
+}
+
+#antes {
+  font-size: 0.8rem;
+  color: #707070;
+  margin-right: 3%;
+}
+
+#despues {
+  font-size: 1rem;
+  color: #28a745;
+}
+
+aside {
+  background-color: #28a745;
+}
+
+footer {
+  text-align: center;
+}
+
+img{
+    width: 5rem;
+}
