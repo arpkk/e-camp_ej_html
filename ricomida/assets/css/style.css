@@ -1,8 +1,75 @@
+body{
+    font-family: 'Cabin', sans-serif;
+}
+
+
+@media (max-width: 767px) {
+    #mobile{
+        padding-left: 5rem;
+        padding-right: 5rem;
+    }
+}
+
+
+.carousel-item {
+    height: 270px;
+}
+
+.carousel .carousel-indicators li.active {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+background-color: #373A3C;}
+
+.carousel .carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    background-color:rgb(182, 181, 181);}
+
+.carousel-indicators {
+    bottom: -50px;
+}
+
+#ricomida{
+    font-family: 'Lobster', cursive;
+}
+
+
 nav{
     background-color: #373A3C;
     color: #FFFFFF;
 }
 
-.card-tittle{
-    font-size: 2rem;
+#collapse-text{
+    margin-left: 80rem;
 }
+
+#ingredientes{
+    font-size: 2rem;
+    line-height: 2rem;
+}
+
+#preparacion{
+    font-size: 2rem;
+    line-height: 3rem;
+}
+
+#preparacion li{
+    padding-top: 2rem;
+}
+
+aside{
+    background-color: #DC3545;
+    text-align: center;
+}
+
+#empezar{
+    width: 20rem;
+}
+
+footer{
+    background-color: #373A3C;
+    text-align: center;
+}
+

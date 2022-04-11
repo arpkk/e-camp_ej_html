@@ -1,19 +1,26 @@
 
-$(function () {
-    $('[data-toggle="tooltip"]').tooltip()
+
+$('[data-toggle="tooltip"]').tooltip()
+
+$('h3').dblclick(
+    function () {
+        $(this).css({
+            "color": "red",
+        })
+    })
+
+
+$("#hide-tittle1").click(function () {
+    $("#hide-body1").hide();
 });
 
-$(function () {
-    // Activate Carousel
-    $("#myCarousel").carousel();
+$("#hide-tittle2").click(function () {
+    $("#hide-body2").hide();
+});
 
-    // Enable Carousel Indicators
-    $("#indicator").click(function () {
-        $("#carouselExampleDark").carousel(1);
-    });
-
-})
-
+$("#hide-tittle3").click(function () {
+    $("#hide-body3").hide();
+});
 
 
 
