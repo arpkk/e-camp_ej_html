@@ -1,0 +1,116 @@
+html{
+    scroll-behavior: auto !important;
+}
+
+body{
+    font-family: Helvetica;
+}
+
+/* Navbar */
+.navbar{
+    background-color: #660066;
+    /* esto sirve para que se adapte el navbar fijo, y se arregla con width */
+    position: fixed;
+    width: 100vw;
+    /*que se superponga*/
+    z-index: 1;
+}
+
+.navbar-brand{
+    font-family: "Oswald";
+    font-size: 40px;
+    font-weight: 700;
+}
+
+/* Hero Section*/
+#Hero-Section{
+    background-image: url("../img/bg_hero.png");
+    background-repeat: no-repeat;
+    background-color: cover;
+    background-position: center;
+    height: 100vh;
+    /*esto permite usar las propiedades left y top*/
+    position: relative;
+}
+
+#Hero-Section div{
+    position: absolute;
+    bottom: 45px;
+    left: 0%;
+    right: 0%;
+    margin: auto;
+}
+
+.hero-line{
+    width: 345px;
+}
+
+#Hero-Section h1{
+    font-family: "Oswald";
+    font-size: 72px;
+}
+
+#Hero-Section h1:first-child{
+    font-weight: 200;
+}
+
+#Hero-Section h1:last-child{
+    font-weight: 900;
+}
+
+/*Sobre mi*/
+#Sobre-Mi{
+    color: #373A3C;
+    font-family: "Open Sans";
+    line-height: 3;
+}
+
+/* Mi experiencia */
+
+#Experiencia div h1{
+    font-family: "Oswald";
+    font-size: 52px;
+}
+
+#Experiencia i{
+    color: #660066;
+}
+
+#Experiencia div:last-child article h4:first-child{
+    font-family: "Oswald";
+}
+
+#Experiencia div:last-child article h4:last-child{
+    font-family: "Open Sans";
+    font-weight: 300;
+}
+/*Mis ultimos trabajos*/
+#Trabajos{
+    background-color: #660066;
+    font-family: "Oswald";
+}
+
+#Trabajos h1{
+    font-size: 52px;
+}
+
+/* Contacto */
+
+#Contacto h1{
+    font-family: "Oswald";
+    font-size: 52px;
+}
+
+/*Footer*/
+
+#Footer{
+    background-color:#660066;
+}
+
+#Footer h1{
+    font-family: "Oswald";
+}
+#Footer a{
+    color: white;
+    text-decoration: none;
+}
